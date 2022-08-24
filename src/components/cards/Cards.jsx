@@ -13,6 +13,7 @@ const Cards = ({overview, title, release_date, poster_path}) => {
             <p>{title}</p>
             <p>{overview}</p>
             <p>{release_date}</p>
+            <h1>Alixe est la meilleure des coachs</h1>
         </div>
         <i>btn</i>
     </div>
