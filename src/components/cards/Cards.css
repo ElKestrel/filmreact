@@ -1,0 +1,26 @@
+.parent{
+    margin: 100px 0;
+    box-shadow: ;
+}
+
+.cardInfo{
+    height: 500px 
+}
+.cardInfo img{
+    height: 100%;
+    width: auto;
+}
+.card-text{
+    display: none;
+
+}
+.cardInfo:hover .card-text{
+    display: block;
+    position: absolute;
+    width: 200px ;
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+    bottom: 100px;
+    margin-left: 50px;
+}

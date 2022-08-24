@@ -1,4 +1,5 @@
 import React from 'react'
+import './Divs.css'
 import { useEffect, useState } from 'react';
 import tmdb from '../../api/tmdb';
 import Cards from '../cards/Cards'
@@ -15,7 +16,7 @@ const Divs = () => {
  fetchMovies()
     }, [] )
   return (
-    <div>
+    <div className='apparence'>
         {moviePopular.map( (movie , index ) =>{
             return <Cards key={index} {...movie}  /> 
         })}
