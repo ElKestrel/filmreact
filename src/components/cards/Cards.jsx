@@ -12,13 +12,11 @@ const Cards = ({overview, title, release_date, poster_path}) => {
 let clr = (e) => {
   if (e.target.style.color == 'red'){
     e.target.style.color = '#ffffff'
-    console.log(this.Cards);
+
   } else {
   e.target.style.color = 'red'
   }
 }
-
-
 
   return (
     <div className='parent'>
@@ -29,6 +27,8 @@ let clr = (e) => {
               <p>{overview}</p>
               <p>{release_date}</p>
               <i class="fa-solid fa-heart icon" onClick={clr}></i>
+
+
             </div>
         </div>
 
