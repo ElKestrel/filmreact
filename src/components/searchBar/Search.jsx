@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import tmdb from '../../api/tmdb    '
+import tmdb from '../../api/tmdb'
 
 function Search() {
     const [searchTerm, setsearchTerm] = useState("")
