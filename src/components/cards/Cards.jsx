@@ -26,7 +26,7 @@ let clr = (e) => {
               <p>{title}</p>
               <p>{overview}</p>
               <p>{release_date}</p>
-              <i class="fa-solid fa-heart icon" onClick={clr}></i>
+              <i className="fa-solid fa-heart icon" onClick={clr}></i>
 
 
             </div>

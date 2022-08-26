@@ -1,5 +1,6 @@
 import React from 'react'
 import './Nav.css'
+import SearchBar from '../searchBar/Search'
 
 function Nav() {
   return (
@@ -8,10 +9,6 @@ function Nav() {
           <div className='tit'>ATAFLIX</div>
           <div className='fav'>Mes favoris</div>
       </div>
-        <div className='flex'>
-          <input className='barre' placeholder='Recherhez votre film préféré..'></input>
-          <button className='barre2'><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
     </div>
   )
 }

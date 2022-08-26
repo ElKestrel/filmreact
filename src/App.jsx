@@ -1,6 +1,6 @@
 import './App.css';
 import Divs from './components/divs/Divs';
-
+import Favo from './components/favo/Favo';
 import Nav from './components/navbar/Nav'
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Favo />
+      
       {arr.map( (sect, index) => {
         return <Divs key={index} tst={sect} />
       })}
